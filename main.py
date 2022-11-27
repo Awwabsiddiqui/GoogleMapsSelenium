@@ -22,7 +22,7 @@ def getter(x, y):
             content = driver.find_element(By.XPATH,
                                           '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[' + str(
                                               i) + "]/div/a")
-            print(content.get_attribute('href'))
+            # print(content.get_attribute('href'))
             dictionary = getMetaData(content.get_attribute('href'))
             dictionary["SearchKeywords"] = key
             dictionary["MapURL"] = content.get_attribute('href')
@@ -32,5 +32,4 @@ def getter(x, y):
             getter(i, y)
 
 
-getter(3, 10)
-# City	SearchKeywords	BusinessName	Tag Line	Address	Web URL	Phone Number	Email	Longtitude	Latitude	Map URL
+getter(3, 200)
