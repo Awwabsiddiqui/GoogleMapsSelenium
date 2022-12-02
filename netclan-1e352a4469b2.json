@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "netclan",
+  "private_key_id": "1e352a4469b2ba1086d934ae888d2a1eaba949e5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdsqee5u6uaN5N\nUmNun7/EYc7F7ontUEP/tKCViid7b7wmTuFBr6ODDYwC+VoBa5AKbaF07gbm7qUx\nqAVC3mfbXUbzhdPIJwYhjF/T/Z/KyB5NZ/v/WkrapN9idv/t7PjSFANbiZ7iJXr6\nmsfjnGfeTtQh4NG1igiyyAur4tOU5GXRGgX+zEa+sXfcbsPLQAtgVDzphcNkj2CJ\n8MfYNPfBDjRGjs7vOEKuotiCpH9nlPZV6saBOR2JHs01JH0X32LStkhs1E57KkG9\nCdJkpSqG+ItRjcudbO5NGxVeObcPkwIW8BIoXsmE4Tz/sTUjiAxEL7w1qFNIfxP0\nkJ2IFV8HAgMBAAECggEABUFW5Ky9d4J3JgyA08bvFRRNV7tDTW1HVtYmI9WeyzZG\nBuDKEO5RfKSO7epxXWrAOhi9MLBd+oQpbSY0Rq4yt9S78JGdJSZnxeZvqxjgollY\n6St18mSH6hFkgFuG297xy85u7jX/3XlyR7ewwZ0MuRPXbemYE3yuHYcdHHVKp8OH\nW2vJy+xxwwIjAN6QoO9077NNE3tuDIsaAsNtj0KdJa1VSr0XFAmMEJ8UmthNSLKJ\nEWuZEazp46TnwNkRg813Jq0n/bwmQ6APfTdch4wcPSLWlmiScXhRXySPDGcjN73A\nQemRwvBxXTFDSIbItfwwRCI4sxNYrvTdQXCGPTmUQQKBgQDOwBqeb0SVXfRLTJRP\nhCKCoTwVyg2n3umjIYXLeRLrbCsy8io2rnC5I6AWFWgQ6rvabLiPm413yVgUXMuo\n7pCvr2m4LmwzesbtJ5RQlbX1fuQnVLapwmCvKtwPc4SDHCWcp2qSFPY8o8jD23Az\nLy+Ecx9BccP5nj4PxJ3ttJW7SwKBgQDDQ0QvVKjI4qBWaEjuPbpiZft2COeEjQOu\np4vEuwKWJMWWa46UXrala7JwnlxMnMCFaR4697lLqWl9GAQn/Gp8Q51dRHxESbos\nlKfwlph+B0AHAaCk5foYwAb4rQfEfhkAM0ruMwhlxZfy1i4bpuC0yjVsFA/7n0nm\nYPhZ0aT5tQKBgQCLkh/mKNMxynVqh83vSBJMATCgvQAu/UrX939s9tUQ3Lrk75oT\nw/sQ4L3napgQI4ahU5fcSnRcEy5EwMgzyKkgENjbn2sn7ZBw9LEpHYfyrLC05HlT\nbIb8eYCJZcBlChFSCarl5wS7tw2HOpIp24bGcTj+YyCbWHopBuBeYfRatQKBgCEV\nZJggX/ipbUE2qiSzkMDbRp/ZImDzA4y0FppelTGbSV8TGjVJVujwNmueaUURygzQ\noq6bCmonahgn2Yxs2B311tPWprdrRoAHL+0zluLDl7WYMP+/d4B6CLRZnNdOBi5i\ngm+ZdfLIZ9ZdM7K7s5buK98EBzE66+p8w5d0Td+BAoGAeMcjxytrNyBrw1jf6CFD\nnTwxWKJk9GJX/DVgfNlRtl/lOrCLRcTSSlQ7PNqamCrKNv5fTDpWyP5RB1y57so8\nDxtcT8Tkj2DsrbQGsl2DTJY3i/lPH+uBxOkYRgju9ImliV1sVbDu3Pr56FfoDwsr\nX2hLkSrGEISDFThp4zph0XA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "netclan-gcloudstorage@netclan.iam.gserviceaccount.com",
+  "client_id": "113757803891054697612",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/netclan-gcloudstorage%40netclan.iam.gserviceaccount.com"
+}

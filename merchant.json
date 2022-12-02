@@ -1,0 +1,86 @@
+{
+  "startup": {
+    "nearByRadius": 50000,
+    "status": 0
+  },
+  "platfrom": "android",
+  "drinks": [],
+  "isVerified": 0,
+  "loginProgress": 2,
+  "profileScore": 65,
+  "isDeleted": 0,
+  "phone": 9430603722,
+  "countryCode": "91",
+  "userType": 2,
+  "fullPhone": "919430603722",
+  "__v": 0,
+  "category": {
+    "data": "Gym",
+    "status": 1
+  },
+  "companyName": {
+    "data": "Sharma",
+    "status": 1
+  },
+  "merchantName": "dummyName",
+  "netClanId": "KKNEWD001Y000",
+  "phoneStatus": 1,
+  "places": {
+    "data": [
+      {
+        "_id": {
+          "$oid": "636debe52aaba0000bedab4f"
+        },
+        "name": "New Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "status": 1,
+        "type": 1
+      }
+    ],
+    "status": 1
+  },
+  "profilePicUrl": "https://netclandev.storage.googleapis.com/profile/multipart/a2303b36-38bc-4340-9caa-8a0e236c5223.jpg",
+  "profileScoreCalculation": {
+    "firstName": 0,
+    "merchantName": 10,
+    "companyName": 10,
+    "category": 5,
+    "yearsOfEstablish": 10,
+    "email": 10,
+    "website": 10,
+    "location": 10,
+    "bio": 0,
+    "linkedIn": 0,
+    "facebook": 0,
+    "instagram": 0,
+    "gallery": 0
+  },
+  "yearsOfEstablish": {
+    "data": 2007,
+    "status": 1
+  },
+  "location": {
+    "coordinates": [
+      72.8771333053729,
+      21.234848022460938
+    ]
+  },
+  "alternateEmail": {
+    "data": "ajajsjjsjs@gmail.com",
+    "status": 1
+  },
+  "alternatePhone": {
+    "data": "97976494994",
+    "status": 1
+  },
+  "email": {
+    "data": "bbkaosbs@gamil.com",
+    "status": 1
+  },
+  "visibility": {},
+  "website": {
+    "data": "Babjsiss. Inc",
+    "status": 1
+  }
+}

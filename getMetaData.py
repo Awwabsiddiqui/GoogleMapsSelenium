@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from URL2BusinessName import URL2BusinessName
+from Upload2Cloud import Upload2Cloud
 from downloadImage import downloadImage
 
 
@@ -40,17 +41,15 @@ def getMetaData(url):
     dictionary['Latitude'] = ls[1]
 
     if "Phone" in dictionary:
-
-        # mainImg = driver.find_element(By.XPATH , '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[1]/div[1]/button/img').get_attribute('src')
-        # print(mainImg)
-        # downloadImage(str(mainImg) , dictionary.get('Phone'), 1)
-
         imgList = driver.find_elements(By.CLASS_NAME, "DaSXdd")
-        # print(len(imgList))
         i = 1
         for img in imgList:
             src = img.get_attribute('src')
             downloadImage(str(src), dictionary.get('Phone'), i)
+            if dictionary.get('bucketURL') is None:
+                dictionary['bucketURL'] = Upload2Cloud(dictionary.get('Phone') , i)
+            else:
+                Upload2Cloud(dictionary.get('Phone'), i)
             i += 1
 
     # print(dictionary)

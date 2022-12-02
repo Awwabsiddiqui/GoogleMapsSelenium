@@ -13,7 +13,7 @@ def dict2List(dictionary):
               dictionary.get("BusinessName", "NoBusinessName"), dictionary.get("TagLine", "NoTagLine"),
               dictionary.get("Address", "NoAddress"), dictionary.get("URL", "NoURL"),
               dictionary.get("Phone", "NoPhone"),
-              dictionary.get("Email", "NoEmail"), dictionary.get("Longitude", "NoLongitude"),
+              dictionary.get("bucketURL", "NoBucketURL"), dictionary.get("Longitude", "NoLongitude"),
               dictionary.get("Latitude", "NoLatitude"), dictionary.get("MapURL", "NoMapURL")]
-    print(oplist)
+    # print(oplist)
     append2XLSX(oplist)

@@ -2,8 +2,10 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
+from CheckXLSX import CheckXLSX
 from append2XLS import dict2List
 from getMetaData import getMetaData
+from dict2Mongo import dict2Mongo
 from scroll import scroll
 
 
@@ -23,10 +25,12 @@ def mainMethod(key, x, y):
                                               '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/div[' + str(
                                                   i) + "]/div/a")
                 # print(content.get_attribute('href'))
-                dictionary = getMetaData(content.get_attribute('href'))
-                dictionary["SearchKeywords"] = key
-                dictionary["MapURL"] = content.get_attribute('href')
-                dict2List(dictionary)
+                if CheckXLSX(content.get_attribute('href')) == False:
+                    dictionary = getMetaData(content.get_attribute('href'))
+                    dictionary["SearchKeywords"] = key
+                    dictionary["MapURL"] = content.get_attribute('href')
+                    dict2List(dictionary)
+                    dict2Mongo(dictionary)
             except:
                 scroll(driver, content)
                 getter(i, y)
