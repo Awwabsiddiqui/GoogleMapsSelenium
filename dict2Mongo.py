@@ -17,8 +17,8 @@ def dict2Mongo(dict):
 
         jsn.update({'profilePicUrl' : dict.get('bucketURL' , "")})
 
-        jsn['location']['coordinates'][0] = float(dict.get('Longitude' , 0.0))
-        jsn['location']['coordinates'][1] = float(dict.get('Latitude' , 0.0))
+        jsn['location']['coordinates'][1] = float(dict.get('Longitude' , 0.0))
+        jsn['location']['coordinates'][0] = float(dict.get('Latitude' , 0.0))
 
         jsn['website'].update({'data' : dict.get('URL')})
 
