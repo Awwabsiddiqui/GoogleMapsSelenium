@@ -10,7 +10,7 @@ from scroll import scroll
 
 
 # key = 'salons in Rail Vihar, Gurugram, Haryana'
-def mainMethod(key, x, y):
+def mainMethod(key, x, y , z):
     url = "https://www.google.com/maps/search/" + str(str(key).replace(' ', '+'))
 
     options = Options()
@@ -29,6 +29,7 @@ def mainMethod(key, x, y):
                     dictionary = getMetaData(content.get_attribute('href'))
                     dictionary["SearchKeywords"] = key
                     dictionary["MapURL"] = content.get_attribute('href')
+                    dictionary["Category"] = z
                     dict2List(dictionary)
                     dict2Mongo(dictionary)
             except:

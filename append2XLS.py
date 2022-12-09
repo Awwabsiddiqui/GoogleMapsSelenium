@@ -9,7 +9,7 @@ def append2XLSX(row_data):
 
 
 def dict2List(dictionary):
-    oplist = [dictionary.get("City", "NoCity"), dictionary.get("SearchKeywords", "NoSearchKeywords"),
+    oplist = [dictionary.get("City", ""), dictionary.get("SearchKeywords", "NoSearchKeywords"),
               dictionary.get("BusinessName", "NoBusinessName"), dictionary.get("TagLine", "NoTagLine"),
               dictionary.get("Address", "NoAddress"), dictionary.get("URL", "NoURL"),
               dictionary.get("Phone", "NoPhone"),
